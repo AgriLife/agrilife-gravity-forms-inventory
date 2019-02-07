@@ -1,0 +1,32 @@
+{
+  "name": "agrilife-gravity-forms-inventory",
+  "version": "1.0.0",
+  "description": "Gravity Forms extension to limit submissions based on the maximum value of Single Product and Number fields.",
+  "main": "agrilife-gravity-forms-inventory.php",
+  "scripts": {
+    "start": "npm install",
+    "checkwp": "composer install && npm run configphpcs && npm run checkphp",
+    "configphpcs": "vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs && vendor/bin/phpcs --config-set ignore_errors_on_exit 1 && vendor/bin/phpcs --config-set ignore_warnings_on_exit 1",
+    "checkphp": "vendor/bin/phpcs --standard=WordPress --report=source ./*.php && vendor/bin/phpcs --standard=WordPress ./*.php"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agrilife/agrilife-gravity-forms-inventory.git"
+  },
+  "keywords": [
+    "wordpress",
+    "gravity",
+    "forms",
+    "inventory"
+  ],
+  "author": "Zachary K. Watkins",
+  "license": "GPL-2.0+",
+  "bugs": {
+    "url": "https://github.com/agrilife/agrilife-gravity-forms-inventory/issues"
+  },
+  "homepage": "https://github.com/agrilife/agrilife-gravity-forms-inventory#readme",
+  "dependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-compress": "^1.4.3"
+  }
+}
