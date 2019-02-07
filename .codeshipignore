@@ -52,6 +52,8 @@ bower.json
 config.rb
 node_modules
 composer
+composer.json
+composer.lock
 .sass-cache
 *.md
 *.txt
