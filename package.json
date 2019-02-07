@@ -1,6 +1,6 @@
 {
   "name": "agrilife-gravity-forms-inventory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gravity Forms extension to limit submissions based on the maximum value of Single Product and Number fields.",
   "main": "agrilife-gravity-forms-inventory.php",
   "scripts": {
