@@ -9,4 +9,4 @@ It is based on two class files by David Smith of gravitywiz.com: GW_Inventory an
 - Run "npm run checkwp" to check if this repository meets the WordPress coding standards.
 
 ## Owners
-- Run "grunt release" to create a git release for this repo.
+- Run "npm install" and then "npm run release" to create a git release for this repo.
