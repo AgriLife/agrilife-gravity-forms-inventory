@@ -5,6 +5,7 @@
   "main": "agrilife-gravity-forms-inventory.php",
   "scripts": {
     "start": "npm install",
+    "release": "node -e \"var g = require('grunt'); g.cli.tasks = ['release']; g.cli()\"",
     "checkwp": "composer install && npm run configphpcs && npm run checkphp",
     "configphpcs": "vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs && vendor/bin/phpcs --config-set ignore_errors_on_exit 1 && vendor/bin/phpcs --config-set ignore_warnings_on_exit 1",
     "checkphp": "vendor/bin/phpcs --standard=WordPress --report=source ./*.php && vendor/bin/phpcs --standard=WordPress ./*.php"
