@@ -43,3 +43,4 @@ cache
 # Ignore compiled files and dependencies using package control
 vendor
 node_modules
+agrilife-gravity-forms-inventory.zip
